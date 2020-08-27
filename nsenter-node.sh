@@ -35,4 +35,6 @@ kubectl run ${podName:?} --restart=Never -it --rm --image overriden --overrides 
       }
     ]
   }
-}' --attach "$@"
+}'
+
+# --attach "$@"
